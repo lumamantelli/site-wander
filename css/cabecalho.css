@@ -1,0 +1,23 @@
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px var(--cinza);
+}
+
+.cabecalho__itens{
+    color: var(--branco);
+    font-family: var(--montserrat);
+    margin: 0 15px;
+}
+
+.cabecalho__nav{
+    list-style-type: none;
+    display: flex;
+}
+
+.cabecalho__itens :hover{
+    border-bottom: solid 1px var(--branco);
+}

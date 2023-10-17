@@ -1,0 +1,15 @@
+.rodape {
+     display: flex;
+     justify-content: center;
+     gap: 5px;
+     padding: 8px 0;
+     border-top: solid 1px rgb(118, 118, 118, .50);
+}
+
+.rodade__copy {
+    width: 10px;
+}
+
+.rodape__texto {
+    font-size: 0.7rem;
+}
